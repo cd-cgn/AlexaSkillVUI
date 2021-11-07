@@ -1,0 +1,55 @@
+////// New User //////
+
+//(Get) Action [Get the user info]
+User  - Alexa, launch Sumtotal.
+
+Alexa - Hi, "Shikhar Gupta" from dev plan Sumtotal. How can i help you.
+
+//(Post)Action No 1//
+User  - add a new external task called Machine Learning to my development plan
+
+Alexa - Added Machine Learning to your development plan
+
+//(Post)Action No 2//
+User  - Now Submit this development plan
+
+Alexa - Do you want to provide any comment.
+
+//(Post)Action No 3//
+User  - Add following comment Please approve my dev plan
+
+Alexa - Dev plan submitted successfully.
+
+
+////// New Manager //////
+
+//(Get) Action [Get the user info]
+Manager - Launch Sum Total
+
+Alexa   - Hi, New Manager from Sumtotal. How can i help you.
+
+//(Get) Action No 1
+Manager - any approval request in dev plan
+
+Alexa   - shikhar gupta has submitted his dev plan.
+
+//(Get) Action No 2
+Manager - please list out all tasks in his development plan
+
+Alexa   - Sure Here is the list of all tasks in his development plan, "Machine learning". Do you want me to approve/reject this dev plan.
+
+//(Post) Action No 3
+Manager - Alexa Please Approve this dev plan
+
+Alexa   - Do you want to provide any comment.
+
+//(Post) Action No 4
+Manager - add following comment Looks good to me approved
+
+Alexa   - Development plan approved successfully.
+
+
+
+
+
+

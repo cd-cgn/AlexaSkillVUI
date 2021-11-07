@@ -1,2 +1,2 @@
 # AlexaSkillVUI
-Alexa Skill VUI for Dev Plan
+Alexa Skill VUI for SumTotal Development Plan Module

@@ -1,0 +1,40 @@
+//Alexa Integration Plan//
+
+1. Designing Speech to Intent Architecture in alexa developer console.
+2. Writing API which will recieve JSON request & return JSON response.
+3. Writing Services which will perform action based on requested Intent.
+
+
+//Alexa Skill Development//
+Alexa Service:
+#Forward Flow
+IN - audio File
+ -> Speech Recognition(ML/NLP)
+  text
+ -> Natural Language Understanding (ML/NLP)
+  meaning
+ -> Intent Call
+  JSON request via HTTP/API
+
+#Backward Flow
+  JSON response via HTTP/API
+ -> Text to Speech	
+OUT - audio file
+
+My Service: 
+ -> Receiving JSON Request/Api request
+ -> Performing Action
+ -> Returning JSON Response/Api Response
+
+
+//Voice User Interface(VUI)//
+Interaction Model:
+ -> Invocation Name
+ -> Utterances(words that expresses an intention)
+ -> Slots
+ -> Intents
+
+Styling
+-Speech Synthesis Markup Language (SSML) for Styling output Sounds.
+-Audio
+
