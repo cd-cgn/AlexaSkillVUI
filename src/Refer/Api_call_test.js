@@ -45,15 +45,15 @@ async function fetchAllTasks(){
 
 
 
-  var options = {
+var options = {
     host :  'https://q3uazq516c.execute-api.ap-south-1.amazonaws.com/APITest',
     port : 443,
     //path : '/debug_token?input_token=' + userAccessToken + '&access_token=' + appAccessToken,
     path : '/',
     method : 'POST'
-  };
+};
 
-  var getReq = https.request(options, function(res) {
+var getReq = https.request(options, function(res) {
     result = 'Begining API Call Step 3';
     console.log("\nstatus code: ", res.statusCode);
     res.on('data', function(data) {
@@ -72,7 +72,6 @@ getReq.on('error', function(err){
 
 return result;
 
-}
 
 
 
